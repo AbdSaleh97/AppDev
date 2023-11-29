@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+
+      #card {
+        width: 200px;
+        border: 1px solid gainsboro;
+        padding: 10px;
+        text-align: center;
+      }
+      #showdetails {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 10px;
+        cursor: pointer;
+      }
+      #showdetails:hover {
+        background-color: #0056b3;
+      }
+
+      header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: gainsboro;
+        padding: 10px;
+        margin-bottom: 20px;
+        position: sticky;
+        top: 0;
+      }
+
+      h1 {
+        margin: 0;
+      }
+      a {
+        margin-left: 10px;
+        text-decoration: none;
+        font-size: large;
+      }
+      a:hover {
+        font-size: 150%;
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Movie List</h1>
+
+      <nav>
+        <a href="#">Movies</a>
+        <a href="#">About us</a>
+      </nav>
+    </header>
+    <main id="container"></main>
+    <script src="script.js"></script>
+  </body>
+</html>
