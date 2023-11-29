@@ -1,0 +1,5 @@
+"The Great Gatsby","The Chronicles of Narnia","9780743273565"
+"To Kill a Mockingbird","Harper Lee","9780061120084"
+"Harry Potter and the Philosopher's Stone","Harper Lee","9781408855652"
+"The Lord of the Rings","J.R.R. Tolkien","9780618640157"
+"The Chronicles of Narnia","C.S. Lewis","9780618640157"
